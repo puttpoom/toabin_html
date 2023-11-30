@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Prompt&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  font-family: "Prompt", sans-serif;
+}
+body {
+  background-color: #f2f2f0;
+}
+
+nav {
+  background-color: azure;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  box-shadow: 8px 8px 16px silver;
+  /* box-shadow: 50px black; */
+}
+
+nav > div:hover {
+  color: #ee8c62;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 560px;
+  padding-bottom: 1rem;
+}
+.btn {
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn-start {
+  color: white;
+  background-color: #513c2f;
+  border-radius: 10rem;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem 5rem;
+}
+
+.btn-start > div {
+  font-size: 1rem;
+}
+
+.btn-trans {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-reg,
+.btn-topup {
+  color: #513c2f;
+  border: 0.1rem solid #513c2f;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  font-size: 1rem;
+}
+
+.btn-reg:hover,
+.btn-topup:hover {
+  box-shadow: inset 0 0 10px #8888;
+}
+
+/* --------------------------------------------- */
+
+.content-menu {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.content-card {
+  position: relative;
+  overflow: hidden;
+  /* padding: 5%; */
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 4px 4px 10px silver;
+}
+
+.card-price {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  color: #ee8c62;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
